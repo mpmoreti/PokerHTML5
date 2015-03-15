@@ -79,14 +79,16 @@ body
 	position: relative;
 	top: -80px;
 	left: 0px;
+	font-weight: bold;
 	z-index: 1;
 }
 
-.table-player-info-credits
+.table-credits
 {
 	position: relative;
 	top: -135px;
 	left: 0px;
+	font-weight: bold;
 	z-index: 1;
 	color: yellow;
 }
@@ -123,6 +125,7 @@ body
 	position: relative;
 	top: -515px;
 	left: -180px;
+	font-weight: bold;
 	color: yellow;
 }
 
@@ -131,6 +134,7 @@ body
 	position: relative;
 	top: -462px;
 	left: 0px;
+	font-weight: bold;
 	color: yellow;
 }
 
@@ -139,6 +143,7 @@ body
 	position: relative;
 	top: -655px;
 	left: 0px;
+	font-weight: bold;
 	color: yellow;
 }
 
