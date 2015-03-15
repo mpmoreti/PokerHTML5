@@ -1,0 +1,281 @@
+body
+{
+	background-color: black;
+}
+
+#main
+{
+	width: 1000px;
+	left: 200px;
+	margin: 0 auto;
+}
+
+#game
+{
+	margin: 10px 0px 10px 10px;
+	width: 650px;
+	height: 600px;
+    border-style: solid;
+    border-width: 2px;
+	background-color: #0000D0;
+	float: left;
+}
+
+#game #title
+{
+	color: lightblue;
+}
+
+#table-container
+{
+	margin: 80px 0px 80px 0px;
+	height: 317px;
+}
+
+#player1
+{
+	width: 140px;
+	height: 115px;
+	position:relative;
+	top: -82px;
+	left: 0px;
+}
+
+.player-card1
+{
+	position: relative;
+	top: 0px;
+	left: 1px;
+	height: 80px;
+}
+
+#player2
+{
+	width: 140px;
+	height: 115px;
+	position:relative;
+	top: -495px;
+	left: 0px;
+}
+
+.player-card2
+{
+	position: relative;
+	top: 0px;
+	left: -1px;
+	height: 80px;
+}
+
+.table-player-info-bg
+{
+	position: relative;
+	top: -45px;
+	left: 0px;
+	height: 80px;
+}
+
+.table-player-info-name
+{
+	position: relative;
+	top: -80px;
+	left: 0px;
+	z-index: 1;
+}
+
+.table-player-info-credits
+{
+	position: relative;
+	top: -135px;
+	left: 0px;
+	z-index: 1;
+	color: yellow;
+}
+
+#board
+{
+	width: 330px;
+	height: 100px;
+	position:relative;
+	top: -453px;
+	left: 0px;
+    border-style: solid;
+    border-width: 1px;
+	background-color: lightgreen;
+}
+
+.board-card-flop
+{
+	position: relative;
+	top: 8px;
+	height: 80px;
+}
+
+.board-card-turn-and-river
+{
+	position: relative;
+	top: 8px;
+	height: 80px;
+	margin-left: 8px;
+}
+
+#pot
+{
+	position: relative;
+	top: -515px;
+	left: -180px;
+	color: yellow;
+}
+
+#player1-bet
+{
+	position: relative;
+	top: -462px;
+	left: 0px;
+	color: yellow;
+}
+
+#player2-bet
+{
+	position: relative;
+	top: -655px;
+	left: 0px;
+	color: yellow;
+}
+
+#game-buttons
+{
+	margin: 10px;
+	position: relative;
+	top: -28px;
+}
+
+#game-buttons #bet-amount
+{
+	width: 340px;
+	display: inline;
+}
+
+#game-buttons #bet-amount-label
+{
+	position:relative;
+	top: -5px;
+}
+
+#game-buttons .button
+{
+	width: 130px;
+	height: 50px;
+}
+
+#player-info-and-login
+{
+	margin: 10px 10px 10px 2px;
+	width: 300px;
+	height: 600px;
+    border-style: solid;
+    border-width: 2px;
+	background-color: #404040;
+	float: left;
+}
+
+#player-info-and-login #login
+{
+	display: inline;
+}
+
+#player-info-and-login #login h4
+{
+	color: #eeeeee;
+	margin: 8px;
+	text-align: center;
+}
+
+.input-group
+{
+	margin: 8px;
+	width: 280px;
+}
+
+.input-group-addon
+{
+	background-color:#666666;
+	color: #FFFFFF;
+	width: 80px;
+}
+
+.form-control
+{
+	background-color:#666666;
+	color: #FFFFFF;
+}
+
+#player-info-and-login #login .button
+{
+	width: 280px;
+	height: 40px;
+	margin: 0px 8px 0px 8px;
+	background-color: #666666;
+	border-color: white;
+	border-width: 1px;
+}
+
+#player-info-and-login #info
+{
+	display: inline;
+}
+
+#player-info-and-login #info h4
+{
+	color: #eeeeee;
+	margin: 8px;
+	text-align: center;
+}
+
+#bankroll-label
+{
+	color: #eeeeee;
+	margin: 8px;
+}
+
+#bankroll-amount
+{
+	color: yellow;
+	margin-left: 4px;
+}
+
+#credits-amount
+{
+	width: 219px;
+	margin-left: 8px;
+	margin-right: 8px;
+	display: inline;
+}
+
+#credits-amount-label
+{
+	position:relative;
+	top: -5px;
+}
+
+#player-info-and-login #info #credits-buy, #player-info-and-login #info #credits-sell
+{
+	width: 134px;
+	height: 30px;
+	margin: 8px 0px 8px 8px;
+	background-color: #666666;
+	border-color: white;
+	border-width: 1px;
+}
+
+#player-info-and-login #info #log-out
+{
+	display: block;
+	text-align: center;
+	width: 55px;
+	height: 20px;
+	margin: 0 auto;
+	background-color: #666666;
+	border-color: white;
+	border-width: 1px;
+	font-size:10px;
+}

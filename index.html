@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Poker HTML5</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="css/bootstrap.css" rel="stylesheet">
+		<link href="css/styles.css" rel="stylesheet">
+	</head>
+	
+	<body>
+		<div id="main">
+			<div id="game">
+				<h1 id="title" class="text-center">Poker HTML5</h1>
+				
+				<div id="table-container" align="center">
+					<img src="images/table.png"></img>
+
+					<div id="player1" align="center">
+						<img src="images/cards_svg/4_of_clubs.svg" class="player-card1"></img>
+						<img src="images/cards_svg/9_of_hearts.svg" class="player-card2"></img>
+						<img src="images/bgPlayer.png" class="table-player-info-bg"></img>
+						<p class="table-player-info-name"><b>player1</b></p>
+						<p class="table-player-info-credits"><b>230</b></p>
+					</div>
+					
+					<div id="player2" align="center">
+						<img src="images/cards_svg/back.svg" class="player-card1"></img>
+						<img src="images/cards_svg/back.svg" class="player-card2"></img>
+						<img src="images/bgPlayer.png" class="table-player-info-bg"></img>
+						<p class="table-player-info-name"><b>player2</b></p>
+						<p class="table-player-info-credits"><b>140</b></p>
+					</div>
+					
+					<div id="board" align="center">
+						<img src="images/cards_svg/5_of_hearts.svg" class="board-card-flop"></img>
+						<img src="images/cards_svg/queen_of_clubs.svg" class="board-card-flop"></img>
+						<img src="images/cards_svg/ace_of_diamonds.svg" class="board-card-flop"></img>
+						<img src="images/cards_svg/jack_of_diamonds.svg" class="board-card-turn-and-river"></img>
+						<img src="images/cards_svg/9_of_spades.svg" class="board-card-turn-and-river"></img>
+					</div>
+					
+					<p id="pot"><b>34</b></p>
+					<p id="player1-bet"><b>18</b></p>
+					<p id="player2-bet"><b>18</b></p>
+				</div>
+				
+				<div align="center" id="game-buttons">
+					<input id="bet-amount" type="range" min="0" max="200" value="0"
+						   onchange="showValue('#bet-amount', '#bet-amount-label')">
+					</input>
+					<input id="bet-amount-label" type="text" size="2" value="0"/>
+					
+					<br>
+					
+					<button type="button" class="btn-primary button">FOLD</button>
+					<button type="button" class="btn-primary button">CHECK</button>
+					<button type="button" class="btn-primary button">BET</button>
+				</div>
+			</div>
+			
+			<div id="player-info-and-login">
+				<div id="login">
+					<h4>Log In</h4>
+					<div class="input-group input-group-sm">
+						<span class="input-group-addon" id="sizing-addon3">Username</span>
+						<input id="username" type="text" class="form-control" placeholder="" aria-describedby="sizing-addon3">
+					</div>
+					
+					<div class="input-group input-group-sm">
+						<span class="input-group-addon" id="sizing-addon3">Password</span>
+						<input id="password" type="password" class="form-control" placeholder="" aria-describedby="sizing-addon3">
+					</div>
+					
+					<button type="button" class="btn-primary button">Log In</button>
+				</div>
+				
+				<div id="info">
+					<h4>player1</h4>
+					
+					<button type="button" id="log-out" class="btn-primary button">Log Out</button>
+					
+					<p id="bankroll-label">Bankroll:<span id="bankroll-amount">2040</span></p>
+					
+					<input id="credits-amount" type="range" min="0" max="10000" value="0"
+						   onchange="showValue('#credits-amount', '#credits-amount-label')">
+					</input>
+					<input id="credits-amount-label" type="text" size="2" value="0"/>
+					
+					<button type="button" id="credits-buy" class="btn-primary button">Buy Credits</button>
+					<button type="button" id="credits-sell" class="btn-primary button">Sell Credits</button>
+				</div>
+			</div>
+		</div>
+		
+		<script src="js/jquery.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<script src="js/code.js"></script>
+	</body>
+</html>
